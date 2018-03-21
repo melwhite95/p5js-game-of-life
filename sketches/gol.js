@@ -12,9 +12,8 @@ function draw () {
 }
 
 class Grid {
-  constructor () {
-    // update the contructor to take cellSize as a parameter
-    // use cellSize to calculate and assign values for numberOfColumns and numberOfRows
+  constructor (20,20) {
+  
   }
 
   draw () {
@@ -26,4 +25,3 @@ class Grid {
       }
     }
   }
-}
