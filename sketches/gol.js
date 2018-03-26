@@ -2,17 +2,20 @@ var grid;
 
 function setup () {
   createCanvas(400, 400);
-  // grid = new Grid(20);
+   grid = new Grid(20);
 }
 
 function draw () {
   background(250);
 
-  // grid.draw();
+   grid.draw();
 }
 
 class Grid {
   constructor () {
+  
+function cellsize(20,20)
+
     // update the contructor to take cellSize as a parameter
     // use cellSize to calculate and assign values for numberOfColumns and numberOfRows
   }
