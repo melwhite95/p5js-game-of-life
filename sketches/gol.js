@@ -22,8 +22,8 @@ class Grid {
   }
 
   draw () {
-    for (var column = 0; column < this.numberOfColumns; column ++) {
-      for (var row = 0; row < this.numberOfRows; row++) {
+    for (var column = 20; column < this.numberOfColumns; column ++) {
+      for (var row = 20; row < this.numberOfRows; row++) {
         fill(240);
         noStroke();
         rect(column * this.cellSize + 1, row * this.cellSize + 1, this.cellSize - 1, this.cellSize - 1);
