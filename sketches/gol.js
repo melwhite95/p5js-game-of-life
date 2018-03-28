@@ -10,11 +10,12 @@ function draw () {
 
    grid.draw();
 }
-
 class Grid {
-  constructor () {
+  constructor( cellSize) {
+ this.cellsize = cellSize;
+
   
-function cellsize(20,20)
+
 
     // update the contructor to take cellSize as a parameter
     // use cellSize to calculate and assign values for numberOfColumns and numberOfRows
